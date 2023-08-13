@@ -1,9 +1,9 @@
 {
   "env": {
-      "test": {
-          "presets": [
-              "@babel/preset-env"
-          ]
-      }
+    "test": {
+      "presets": [
+        "@babel/preset-env"
+      ]
+    }
   }
 }
