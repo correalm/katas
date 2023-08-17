@@ -1,4 +1,4 @@
-import deadfish from '../deadfish'
+import deadfish from '../katas/deadfish'
 
 describe('deadfish', () => {
   test('return he correct results', () => {
