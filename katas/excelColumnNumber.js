@@ -1,5 +1,9 @@
 const ASCII_UPPERCASE_LETTERS_START_VALUE = 64
 
+/**
+  * @param {string} title
+  * @returns {number}
+*/
 export default function excelColumnNumber(title) {
   let result = 0
 
