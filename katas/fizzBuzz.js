@@ -1,17 +1,19 @@
 /**
   * @param {number} value 
 */
-
 function fizzBuzz(value) {
   const result = []
 
   for (let i = 1; i <= value; i++) {
     let value = ''
 
-    if ((i % 3) === 0) value += 'Fizz'
-    if ((i % 5) === 0) value += 'Buzz'
+    const isFizz = (i % 3) === 0
+    const isBuzz = (i % 5) === 0
 
-    if ((i % 3) !== 0 && (i % 5) !== 0) value += i.toString()
+    if (isFizz) value += 'Fizz'
+    if (isBuzz) value += 'Buzz'
+
+    if (!isFizz && !isBuzz) value += i.toString()
 
     result.push(value)
   }
