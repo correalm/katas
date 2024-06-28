@@ -1,5 +1,6 @@
 /**
   * @param {number} value 
+  * @returns {string[]}
 */
 function fizzBuzz(value) {
   const result = []
